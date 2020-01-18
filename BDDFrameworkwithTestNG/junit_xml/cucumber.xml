@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="11.813911">
+<testcase classname="Allianz Application Login Test" name="Allianz Application Login Test" time="11.813911">
+<failure message="java.lang.AssertionError: expected [allianz.com.au - My Portfolio] but found [Error]&#13;&#10;&#9;at org.testng.Assert.fail(Assert.java:96)&#13;&#10;&#9;at org.testng.Assert.failNotEquals(Assert.java:776)&#13;&#10;&#9;at org.testng.Assert.assertEqualsImpl(Assert.java:137)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:118)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:453)&#13;&#10;&#9;at org.testng.Assert.assertEquals(Assert.java:463)&#13;&#10;&#9;at com.qa.StepDefinitions.LoginPageTest.user_is_on_the_Home_Page(LoginPageTest.java:47)&#13;&#10;&#9;at ✽.Then User is on the Home Page(LoginPage.feature:11)&#13;&#10;"><![CDATA[Given User is already on the Login Page.....................................passed
+When the title of the login page is Allianz Login...........................passed
+Then User enters "pktest001" and "test001" and click on login button........passed
+Then User is on the Home Page...............................................failed
+
+StackTrace:
+java.lang.AssertionError: expected [allianz.com.au - My Portfolio] but found [Error]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.qa.StepDefinitions.LoginPageTest.user_is_on_the_Home_Page(LoginPageTest.java:47)
+	at ✽.Then User is on the Home Page(LoginPage.feature:11)
+]]></failure>
+</testcase>
+</testsuite>
